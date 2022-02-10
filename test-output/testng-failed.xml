@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="d_04_02_2022.KupujemProdajem">
+      <class name="d_07_02_2022_tests.FormTest">
         <methods>
-          <include name="findPhone"/>
-          <include name="before"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="fillInTheForm"/>
         </methods>
-      </class> <!-- d_04_02_2022.KupujemProdajem -->
+      </class> <!-- d_07_02_2022_tests.FormTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
