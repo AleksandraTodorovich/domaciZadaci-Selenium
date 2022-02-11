@@ -38,6 +38,7 @@ public class FormTest {
 	@Test
 	public void fillInTheForm() throws InterruptedException {
 		formPage.insertAllData("Milos Markovic", "male", "12.02.1995", "milos@gmail.com", "QA", "read_books");
+		//formPage.insertAllData("Milos Markovic", "Milos Markovic", "12.02.1995", "milos@gmail.com", "QA", "read_books");
 		Thread.sleep(500);
 		formPage.getComment().sendKeys("Hello World");
 		formPage.getWaitForElementToBeClickabile().click();
@@ -48,4 +49,5 @@ public class FormTest {
 	public void afterMethod() {
 		driver.quit();
 	}
-}
+	}
+
