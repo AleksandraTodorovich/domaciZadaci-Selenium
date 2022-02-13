@@ -2,24 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="48303" started-at="2022-02-11T12:04:47 CET" finished-at="2022-02-11T12:05:35 CET">
+  <suite name="Default suite" duration-ms="9590" started-at="2022-02-13T10:17:15 CET" finished-at="2022-02-13T10:17:24 CET">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="48303" started-at="2022-02-11T12:04:47 CET" finished-at="2022-02-11T12:05:35 CET">
-      <class name="d_08_02_2022_test.FormTest">
-        <test-method status="PASS" signature="before()[pri:0, instance:d_08_02_2022_test.FormTest@66d1af89]" name="before" is-config="true" duration-ms="6811" started-at="2022-02-11T12:04:47 CET" finished-at="2022-02-11T12:04:54 CET">
+    <test name="Default test" duration-ms="9590" started-at="2022-02-13T10:17:15 CET" finished-at="2022-02-13T10:17:24 CET">
+      <class name="d_10_02_2022.GoogleScreenShot">
+        <test-method status="PASS" signature="TakeAScreenShot()[pri:0, instance:d_10_02_2022.GoogleScreenShot@74ad1f1f]" name="TakeAScreenShot" duration-ms="9522" started-at="2022-02-13T10:17:15 CET" finished-at="2022-02-13T10:17:24 CET">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="testing()[pri:0, instance:d_08_02_2022_test.FormTest@66d1af89]" name="testing" duration-ms="40620" started-at="2022-02-11T12:04:54 CET" finished-at="2022-02-11T12:05:35 CET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testing -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:d_08_02_2022_test.FormTest@66d1af89]" name="afterTest" is-config="true" duration-ms="808" started-at="2022-02-11T12:05:35 CET" finished-at="2022-02-11T12:05:35 CET">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- d_08_02_2022_test.FormTest -->
+        </test-method> <!-- TakeAScreenShot -->
+      </class> <!-- d_10_02_2022.GoogleScreenShot -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
